@@ -1,6 +1,6 @@
 const containerSlider = document.getElementById("slider");
-let imagesWeapons = ["bazooka.jpg",  "fleau.jpg", "sulfateuse.jpg"];
-let imagesWeaponsDescriptions = ["Lance rocket", "L'arme le fleau", "Sulfateuse"];
+let imagesWeapons = ["bazooka.jpg",  "hache.jpg", "sulfateuse.jpg"];
+let imagesWeaponsDescriptions = ["Lance rocket", "Hache", "Sulfateuse"];
 
 
 let countImages = imagesWeapons.length;
@@ -10,10 +10,25 @@ for (let i = 0; i < imagesWeapons.length; i++) {
     slideDiv.className = "slide";
 
     let image = document.createElement("img");
-    image.className = "image"
+    image.className = "image";
     image.src = "./PHOTOS/" + imagesWeapons[i];
     image.alt = imagesWeaponsDescriptions[i];
 
     slideDiv.appendChild(image);
     containerSlider.appendChild(slideDiv);
 }
+
+const imagesDiv = document.getElementsByClassName("slide");
+let currentSlide = 0
+function sliderFunction (countImages) {
+    let size = 80 * (currentSlide + 1);
+    if (currentSlide === imagesDiv.length - 1) {
+        containerSlider.style.left = "0";
+        currentSlide = 0;
+    } else {
+        containerSlider.style.left = "-" +size + "vw";
+        currentSlide++;
+    }
+}
+
+setInterval("sliderFunction()", 4000);
