@@ -1,0 +1,23 @@
+#container_slider {
+    position: absolute;
+    overflow: hidden;
+    margin-left: 10vw;
+}
+
+#slider {
+    width: 80vw;
+    height: 90vh;
+    display: flex;
+    position: relative;
+    left: 0;
+    transition: left 1s ease-in-out;
+}
+
+.slide {
+    width: 80vw;
+}
+
+img > .image {
+    width: 80vw;
+    height: 90vh;
+}
