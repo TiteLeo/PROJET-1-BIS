@@ -1,3 +1,4 @@
+<?php require 'data.php' ?>
 <!doctype html>
 <html lang="fr">
 <head>
@@ -9,11 +10,28 @@
     <title>Commisseriat de la Wild</title>
 </head>
 <body>
-    <!--Ajout de la navbar-->
-
-    <div id="container_slider">
+<!--Ajout de la navbar-->
+<section id="container_slider">
         <div id="slider"></div>
+</section>
+<section id="container_weapons">
+    <?php foreach($weaponsCategories as $weaponCategory => $weapons) : ?>
+
+    <div id="<?= $weaponCategory ?>">
+
+        <h2 class="type_weapons"><?= $weaponCategory ?></h2>
+        <div class="weapons">
+            <?php foreach ($weapons as $weapon => $name) : ?>
+            <div class="weapon_card">
+                <img class="weapon_image" src="./PHOTOS/<?= $weapon ?>" alt="<?= $name ?>">
+                <p class="weapon_description"><span class="name_weapon"><?= $name ?></span> :<br>au prix de <?= number_format(rand(500, 50000),2, ',', ' ') ?>€</p>
+            </div>
+            <?php endforeach;?>
+        </div>
     </div>
+
+    <?php endforeach; ?>
+</section>
     <script src="slider.js"></script>
 </body>
 </html>

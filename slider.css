@@ -1,12 +1,11 @@
 #container_slider {
-    position: absolute;
+    width: 80vw;
     overflow: hidden;
     margin-left: 10vw;
 }
 
 #slider {
     width: 80vw;
-    height: 90vh;
     display: flex;
     position: relative;
     left: 0;
@@ -20,4 +19,43 @@
 .image {
     width: 80vw;
     max-height: 50vw;
+}
+
+.type_weapons {
+    padding-left: 1.5em;
+    margin: 5rem 0;
+}
+
+.weapons {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.weapon_card {
+    width: 20em;
+    max-width: 80vw;
+    height: auto;
+    margin-bottom: 5vh;
+    margin-right: 2vw;
+    border: 1px solid blue;
+    border-radius: 5px;
+}
+
+.weapon_image {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid blue;
+    border-radius: 5px;
+}
+
+.weapon_description {
+    padding-left: 1em;
+    line-height: 1.5em;
+}
+
+.name_weapon {
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-decoration: underline;
 }
