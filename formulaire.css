@@ -1,5 +1,51 @@
 body {
   font-family: 'Oswald', sans-serif;
-  color: rgb(6, 6, 235)
+  color: rgb(6, 6, 235);
+  background-color: white;
+  }
+
+  @media only screen and (max-width: 600px) {
+    body {
+      background-color: white;
+    }
+  }
+
+  section {
+    padding: 50px;
   }
   
+h1 {
+    font-size: 54px;
+    color: rgb(6, 6, 235);
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+  }
+h2 {
+    font-size: 34px;
+    color: rgb(6, 6, 235);
+    text-align: center; 
+    font-family: 'Oswald', sans-serif;
+  }
+
+  
+  header {
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    color: rgb(6, 6, 235)
+  }
+
+  #avisInput {
+    width: 38vw; 
+    height: 16vh;
+  }
+  
+  textarea {
+    width: 38vw; 
+    height: 16vh;
+    
+  }
+  #form {
+    padding: 50px;
+    width: 38vw; 
+    height: 16vh;
+  }
