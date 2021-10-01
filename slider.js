@@ -1,4 +1,8 @@
 const containerSlider = document.getElementById("slider");
+let url = document.location.pathname.substring(1);
+if (url === "armes.php") {
+    let audio = document.getElementById("candy");
+}
 let imagesWeapons = ["bazooka.jpg",  "hache.jpg", "sulfateuse.jpg"];
 let imagesWeaponsDescriptions = ["Lance rocket", "Hache", "Sulfateuse"];
 

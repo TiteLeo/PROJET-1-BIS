@@ -21,6 +21,26 @@
     max-height: 50vw;
 }
 
+#description {
+    width: 100vw;
+    text-align: center;
+}
+
+#description > h2 {
+    font-size: 2.5rem;
+}
+
+#description > .container_page_description {
+    text-align: left;
+}
+
+#description > .container_page_description > .page_desciption {
+    right: -100vw;
+    font-size: 1.2em;
+    padding-left: 16px;
+}
+
+
 .type_weapons {
     padding-left: 1.5em;
     margin: 5rem 0;
@@ -45,8 +65,13 @@
 .weapon_image {
     width: 100%;
     height: auto;
-    border-bottom: 1px solid blue;
+    border: 1px solid blue;
     border-radius: 5px;
+    transition: transform 0.6s ease-in-out;
+}
+
+.weapon_image:hover {
+    transform: scale(1.5);
 }
 
 .weapon_description {
