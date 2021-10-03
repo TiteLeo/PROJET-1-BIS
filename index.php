@@ -18,7 +18,7 @@
             <div class="content-view-full">
                 <div class="class-sub_rubric">
                     <div class="attribute-header">
-                        <<h1> Présentation générale </h1> 
+                        <h1> Présentation générale </h1>
                     </div>
                     <div class="attribute-text">
                         <P class=" text-justify">
