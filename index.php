@@ -1,16 +1,68 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Wild Template</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet"> 
-</head>
 
+<link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet"> 
+
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="navbar.css">
+	
+	
+
+</head>
+	<body>
+		
+	<div class="menu">
+		
+    <nav>
+      
+      <input type="checkbox" id="btn-menu">
+      <label for="btn-menu" class="menu-icon"><i class="fas fa-bars"></i></label>
+      <div class="menu-nav">
+        <div class="logo"><a href="#">Logo Police</a></div>
+        <ul class="navbar">
+         
+          <li><a href="#">Accueil</a></li>
+          <li>
+            <a href="#" class="menu-link">Armes</a>
+            <input type="checkbox" id="link-arme">
+            <label for="link-arme">Armes</label>
+            <ul>
+              <li><a href="#">Armes 1</a></li>
+              <li><a href="#">Armes 2</a></li>
+              <li><a href="#">Armes 3</a></li>
+              <li><a href="#">Armes 4</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#" class="menu-link">Hotel/Restaurant</a>
+            <input type="checkbox" id="link-hotel">
+            <label for="link-hotel">Hotel/Restaurant</label>
+            <ul>
+              <li><a href="#">Hotel/Restaurant 1</a></li>
+              <li><a href="#">Hotel/Restaurant 2</a></li>
+              <li><a href="#">Hotel/Restaurant 3</a></li>
+				<li><a href="#">Hotel/Restaurant 4</a></li>
+              
+            </ul>
+          </li>
+          <li><a href="#">Contact/Avis</a></li>
+        </ul>
+      </div>
+     
+        
+    </nav>
+  </div>
+  
 <body>
 <section id="Accueil">
     <div id="columns" class="float-break">
@@ -21,7 +73,7 @@
                         <h1> Présentation générale </h1>
                     </div>
                     <div class="attribute-text">
-                        <P class=" text-justify">
+                        <p class=" text-justify">
                         La déclaration des droits de l'homme et du citoyen de 1789, 
                         inscrite dans le préambule de constitution française, a défini 
                         la philosophie de l'action policière. Son premier article affirme 
@@ -54,8 +106,8 @@
                            leurs complices, de les arrêter et de les déférer aux autorités 
                            judiciaires compétentes  ;
                         </li>
-                        <li
-                            <b>
+                        <li>
+                            
                           <b> Le renseignement et l'information </b>
                         , permettant d'assurer l'information des autorités gouvernementales, 
                         de déceler et de prévenir toute menace susceptible de porter atteinte 
@@ -179,5 +231,9 @@
 </div>
     </section>
      <script src="formulaire.js"></script>
+	<script  src="navbar.js"></script>
+
+
 </body>
-</html>
+</html>      
+               
