@@ -15,7 +15,7 @@
     
     <link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" href="navbar.css">
-	
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
 	
 
 </head>
@@ -28,7 +28,7 @@
       <input type="checkbox" id="btn-menu">
       <label for="btn-menu" class="menu-icon"><i class="fas fa-bars"></i></label>
       <div class="menu-nav">
-        <div class="logo"><a href="#">Logo Police</a></div>
+        <div class="logo"><img src ="PHOTOS/logonew.png"></div>
         <ul class="navbar">
          
           <li><a href="#">Accueil</a></li>
