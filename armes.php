@@ -16,7 +16,7 @@
 <section id="container-weapons">
     <?php foreach($weaponsCategories as $weaponCategory => $weapons) : ?>
 
-        <div id="<?= $weaponCategory ?>">
+        <div id="<?= str_replace(" ", "",$weaponCategory) ?>">
 
             <h2 class="type-weapons"><?= $weaponCategory ?></h2>
             <div class="weapons">
@@ -33,9 +33,9 @@
     <?php endforeach; ?>
 </section>
 
-<audio id="candy" autoplay>
+<!--<audio id="candy" autoplay>
     <source src="PHOTOS/candy-shop.mp3">
-</audio>
+</audio>-->
 
 <?php require'footer.php' ?>
 <script src="JS/slider.js"></script>
