@@ -1,16 +1,6 @@
-<?php require 'data.php' ?>
-<!doctype html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
-    <link rel="stylesheet" href="slider.css">
-    <title>Commisseriat de la Wild</title>
-</head>
-<body>
+<?php require 'nav.php'?>
+<?php require 'data.php'?>
+
 <!--Ajout de la navbar-->
 <section id="container-slider">
     <div id="slider"></div>
@@ -19,7 +9,7 @@
     <h2>SHOP</h2>
     <div class="container-page-description">
         <p class="page-desciption">
-            Profitez de notre braderie exceptionnelle d'objects saisies lors de nos dernières perquisitions!!!
+            Profitez de notre grande braderie exceptionnelle d'objets saisis lors de nos dernières perquisitions!!!
         </p>
     </div>
 </section>
@@ -42,20 +32,12 @@
 
     <?php endforeach; ?>
 </section>
-<!--
+
 <audio id="candy" autoplay>
     <source src="PHOTOS/candy-shop.mp3">
 </audio>
--->
-<footer id="footer">
-    <a href=""class="footer-link">CVG</a>
-        <div class="media-social">
-        <a href="https://twitter.com/"class="footer-link"><i class="fab fa-twitter"></i>Twitter</a>
-        <a href="https://www.facebook.com/"class="footer-link"><i class="fab fa-facebook-f"></i>Facebook</a>
-        <a href="https://www.instagram.com/"class="footer-link"><i class="fab fa-instagram"></i>Instagram</a>
-    </div>
-    <a href="equipe.php"class="footer-link">Notre équipe</a>
-</footer>
-<script src="slider.js"></script>
+
+<?php require'footer.php' ?>
+<script src="JS/slider.js"></script>
 </body>
 </html>

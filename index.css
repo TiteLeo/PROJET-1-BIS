@@ -1,0 +1,586 @@
+:root {
+    --primary-color: skyblue;
+    --secondary-color: ivory;
+}
+
+.bold {
+    font-weight: bold;
+    font-size: 30px;
+}
+/* ACCUEIL*/
+
+#accueil{
+    padding-top: 300px;
+}
+
+#accueil {
+    font-family: 'Scheherazade New', serif;
+    font-size: 20px;
+    margin-left:10% ;
+    width: 80%;
+
+}
+
+h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+    margin: 0;
+    padding: 0 0 5px 0;
+    color: #424242;
+    
+}
+
+/* NAVBAR*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+   
+  }
+
+#logo-desk {
+    width: 100vw;
+    background-color: var(--primary-color);
+    text-align: center;
+}
+#logo-desk img {
+    width: 125px;
+    height: auto;
+}
+
+#logo-mobile {
+    display: none;
+}
+
+  .menu{
+    background-color: var(--primary-color);
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+  }
+  .menu nav{
+   
+    margin: 0 auto;
+    height: 70px;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    display: flex;
+  }
+  .logo img{
+      width: 	50px;
+      height: 50px;
+      
+  }
+  
+  .logo {
+      margin-left: 50px;
+  }
+  nav .menu-nav .navbar{
+      width: 100vw;
+    display: flex;
+    justify-content: center;
+  }
+  nav .menu-nav{
+    display: flex;
+    align-items: center;
+  }
+  .menu-nav .logo a{
+    color: black;
+    font-size: 30px;
+    font-weight: 600;
+  }
+  .menu-nav .navbar li{
+    list-style: none;
+    line-height: 70px;
+  }
+  .menu-nav .navbar li a,
+  .menu-nav .navbar li label{
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px 17px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+  }
+  .menu-nav .navbar li a {
+   padding: 20px 60px;	
+      
+  }
+  .menu-nav .navbar li label{
+    display: none;
+  }
+  .menu-nav .navbar li a:hover,
+  .menu-nav .navbar li label:hover{
+    background-color: var(--secondary-color);
+  }
+  
+  .menu .menu-icon{
+    color: black;
+    font-size: 18px;
+    cursor: pointer;
+    line-height: 70px;
+    width: 70px;
+    text-align: center;
+  }
+  .menu .menu-icon{
+    display: none;
+  }
+  
+  .menu input[type="checkbox"]{
+    display: none;
+  }
+  
+  .menu-nav .navbar ul{
+    position: absolute;
+    background-color: var(--primary-color);
+    top: 80px;
+    z-index: -1;
+    opacity: 0;
+    visibility: hidden;
+  }
+  .menu-nav .navbar li:hover > ul{
+    top: 70px;
+    opacity: 1;
+    visibility: visible;
+    transition: all 0.3s ease;
+  }
+  .menu-nav .navbar ul li a{
+    display: block;
+    width: 100%;
+    line-height: 30px;
+    border-radius: 0px!important;
+  }
+  .menu-nav .navbar ul ul{
+    position: absolute;
+    top: 0;
+    
+  }
+  .menu-nav .navbar ul li{
+    position: relative;
+  }
+  .menu-nav .navbar ul li:hover ul{
+    top: 0;
+  }
+  
+  
+  
+  /* SHOP*/
+
+
+/* Start slider */
+#container-slider {
+    padding-top: 300px;
+    padding-left: 0px;
+    width: 80vw;
+    overflow: hidden;
+    margin-left: 10vw;
+}
+
+#slider {
+    width: 80vw;
+    display: flex;
+    position: relative;
+    left: 0;
+    transition: left 1s ease-in-out;
+}
+
+.slide {
+    width: 80vw;
+}
+
+.image {
+    width: 80vw;
+    max-height: 50vw;
+}
+/* End slider */
+
+/* Start description page armes */
+#description {
+    width: 100vw;
+    text-align: center;
+}
+
+#description > h2 {
+    font-size: 2.5rem;
+}
+
+#description > .container-page-description {
+    text-align: left;
+}
+
+#description > .container-page-description > .page-desciption {
+    right: -100vw;
+    font-size: 1.2rem;
+    padding-left: 24px;
+}
+
+/* Start card weapons */
+.type-weapons {
+    padding-left: 45px;
+    margin: 5rem 0;
+}
+
+.weapons {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.weapon-card {
+    width: 25%;
+    max-width: 80vw;
+    height: auto;
+    margin-bottom: 5vh;
+    margin-right: 2vw;
+    border: 1px solid var(--primary-color);
+    border-radius: 5px;
+}
+
+.weapon-image {
+    width: 100%;
+    height: auto;
+    border: 1px solid var(--primary-color);
+    border-radius: 5px;
+    transition: transform 0.6s ease-in-out;
+}
+
+.weapon-image:hover {
+    transform: scale(1.3);
+}
+
+.weapon-description {
+    padding-left: 16px;
+    line-height: 1.5rem;
+}
+
+.name-weapon {
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-decoration: underline;
+}
+/* End card weapons */
+/* End page armes */
+
+/* Start page équipe */
+#team {
+    width: 100%;
+    text-align: center;
+}
+
+#picture-team {
+    width: 100%;
+    height: auto;
+    position: relative;
+    left: 0;
+    animation: 1.5s linear zoom;
+}
+
+#picture-team > #image-team {
+    width: 100%;
+    height: auto;
+}
+
+/*Start footer*/
+#footer {
+    width: 100vw;
+    height: 15vh;
+    background-color: var(--primary-color);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-link {
+    color: var(--light);
+}
+
+.media-social {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+/* End footer*/
+
+/* Start media */
+@media screen and (min-width: 768px) {
+    body {
+        font-size: 1.4rem;
+    }
+    .media-social {
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .media-social > a {
+        margin-right: 20px;
+    }
+
+    #picture-team {
+        width: 40vw;
+        position: relative;
+        animation: 10s infinite linear team;
+    }
+}
+
+@keyframes team {
+    0% {
+        left: 5vw;
+        top: 20vh;
+    }
+    25% {
+        top: 5vh;
+        transform: scaleX(1.5);
+    }
+    50% {
+        left: calc(95vw - 40vw);
+        top: 20vh;
+        transform: scaleX(1);
+    }
+    100% {
+        left: 5vw;
+        top: 20vh;
+    }
+}
+
+@keyframes zoom {
+    0% {
+        width: 0vw;
+        left: 50%;
+        transform: rotate(180deg);
+    }
+    80% {
+        width: 100%;
+        height: auto;
+        left: 0;
+        transform: scale(1.3);
+    }
+    100% {
+        width: 100%;
+        height: auto;
+        transform: scale(1) rotate(0deg);
+    }
+}
+
+/* HOTEL RESTAU */
+
+
+
+
+/* FORMULAIRE*/
+
+body {
+    font-family: 'Scheherazade New', serif;
+    background-color: rgba(250, 250, 235, 0.308);
+    font-size: 16px ;
+}
+
+#contact {
+    padding-top: 300px;
+}
+    
+h1 {
+    font-size: 54px;
+    color: goldenrod;
+    text-align: center;
+    font-family: 'Scheherazade New', serif;
+}
+h2 {
+    font-size: 34px;
+    color: goldenrod;
+    text-align: center; 
+    font-family: 'Scheherazade New', serif;
+}
+
+h3 {
+    font-size: 34px;
+    color: goldenrod;
+    text-align: center; 
+    font-family: 'Scheherazade New', serif;
+}
+
+header {
+    text-align: center;
+    font-family: 'Scheherazade New', serif;
+    color: rgb(152, 153, 160)
+}
+
+#avisInput {
+    width: 38vw; 
+    height: 16vh;      
+}
+
+
+
+#avisList {
+    margin: 100px;
+    font-size: 20px;
+}
+
+
+textarea {
+    width: 38vw; 
+    height: 16vh;  
+}
+
+#form {
+    padding: 50px;
+    width: 38vw;
+    font-size: 16px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+#section-team{
+    padding:300px;
+}
+  
+@media only screen and (max-width: 600px) {
+    body {
+    background-color: white;
+    }
+}
+
+    form {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin: 0 auto;
+      width: 400px;
+      border: 1px solid #CCC;
+      border-radius: 1em;
+      
+    }
+    
+    form div + div {
+      margin-top: 1em;
+    }
+    
+    label {
+      /* Pour être sûrs que toutes les étiquettes ont même taille et sont correctement alignées */
+      width: 80%;
+      margin-left: 10%;
+    }
+    
+    
+    input:focus, textarea:focus {
+      /* Pour souligner légèrement les éléments actifs */
+      border-color: #000;
+    }
+   button {
+     padding: 12px;
+     margin-left: 10%;
+     background-color: var(--secondary-color);
+     color: goldenrod
+     
+   }
+   #image-button{
+     background: var(--secondary-color) url('logonew.png') no-repeat top left;
+     padding-left: 10px;
+     height: 100px;
+     width: 160px;
+   }
+
+   input, textarea {
+    /* Pour s'assurer que tous les champs texte ont la même police.
+       Par défaut, les textarea ont une police monospace */
+    font: 1em sans-serif;
+    /* Pour que tous les champs texte aient la même dimension */
+    width: 80%;
+    margin-left: 10%;
+    /* Pour harmoniser le look & feel des bordures des champs texte */
+    border: 1px solid #999;
+    
+  }
+  @media screen and (max-width: 900px){
+    .menu .menu-icon{
+      display: block;
+    }
+      #logo-desk {
+          display: none;
+      }
+
+      #logo-mobile {
+          display: block;
+      }
+      .menu nav{
+      max-width: 100%;
+      padding: 0 20px;
+    }
+    nav .menu-nav .navbar{
+      margin-left: 30px;
+    }
+    .menu-nav .navbar li a{
+      padding: 8px 13px;
+    }
+   
+    nav .menu-nav .navbar{
+      display: block;
+      position: fixed;
+      background-color: var(--primary-color);
+      height: 100%;
+      width: 100%;
+      top: 70px;
+      left: -100%;
+      margin-left: 0;
+      max-width: 350px;
+      overflow-y: auto;
+      padding-bottom: 100px;
+      transition: all 0.8s ease;
+    }
+    nav #btn-menu:checked ~ .menu-nav .navbar{
+      left: 0%;
+    }
+    .menu-nav .navbar li{
+      margin: 15px 20px;
+    }
+    .menu-nav .navbar li a,
+    .menu-nav .navbar li label{
+      line-height: 40px;
+      font-size: 20px;
+      display: block;
+      padding: 10px px;
+      cursor: pointer;
+    }
+    .menu-nav .navbar li a.menu-link{
+      display: none;
+    }
+   
+    .menu-nav .navbar ul,
+    .menu-nav .navbar ul ul{
+      position: static;
+      opacity: 1;
+      visibility: visible;
+      background: none;
+      max-height: 0px;
+      overflow: hidden;
+    }
+    .menu-nav .navbar #link-arme:checked ~ ul,
+    .menu-nav .navbar #link-hotel:checked ~ ul{
+      max-height: 100%;
+    }
+    .menu-nav .navbar ul li{
+      margin: 8px 20px;
+    }
+    .menu-nav .navbar ul li a{
+      font-size: 20px;
+      line-height: 30px;
+      border-radius: 5px;
+    }
+  }
+  @media screen and (max-width: 400px){
+    .menu nav{
+      padding: 0 10px;
+    }
+    .menu-nav .logo a{
+      font-size: 25px;
+    }
+    
+  }

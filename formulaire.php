@@ -1,15 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width" />
-    <title>Commissariat</title> 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Scheherazade+New&display=swap" rel="stylesheet"> 
-    <link href="formulaire.css" rel="stylesheet" type="text/css" />
-  </head>
-  <body>
+<?php require 'nav.php' ?>
     <section id="contact">
       <h1> Formulaire de délit </h1>
       
@@ -42,11 +31,13 @@
     </form>
     <h3> Meilleurs commentaires </h3>
     <ul id="avisList">
-        <li>J'ai adoré les douches!!! (Michel Buse)</li>
-        <li>MERCI!! Grâce au commissariat j'ai rencontré 
+        <li class='avis'>J'ai adoré les douches!!! (Michel Buse)</li>
+        <li class='avis'>MERCI!! Grâce au commissariat j'ai rencontré 
             Marie-Jeanne, qui m'a appris le jardinage, et
             Walter, ancien prof de chimie en reconversion pro <3.(Danielle Quiche)</li>
     </ul>   
-    <script src="formulaire.js"></script>
+    <script src="JS/formulaire.js"></script>
+    <?php require'footer.php' ?>
   </body>
+  
 </html>

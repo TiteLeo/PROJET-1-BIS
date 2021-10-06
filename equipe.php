@@ -1,21 +1,18 @@
-<!doctype html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="slider.css">
-    <title>Notre équipe</title>
-</head>
-<body>
+<?php require 'nav.php'?>
+<section id="section-team">
     <div id="team">
         <h1>Notre équipe</h1>
         <p>Voici notre équipe de proximité, toujours la pour votre service !</p>
-    </div>
+        <p>L'équipe de choc vous accueille du Lundi au Dimanche,
+            de 8h à 16h (sobre de 8h à 8h45...).
+            Téléphone: 05 40 12 15 33 ou pas 
+            13 All. Serr, 33000 Bordeaux
+        </p>
+    <div> <img src="PHOTOS/plan.png" alt="plan"></div>
     <div id="picture-team">
         <img id="image-team" src="./PHOTOS/equipe.jpg" alt="Notre équipe">
     </div>
-
+</section>
+ <?php require'footer.php' ?>
 </body>
 </html>
