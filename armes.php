@@ -1,17 +1,16 @@
 <?php require 'nav.php'?>
 <?php require 'data.php'?>
 
-<!--Ajout de la navbar-->
+<h2 id='braderie'>SHOP</h2>
+<div class="container-page-description">
+    <p class="page-desciption">
+        Profitez de notre grande braderie exceptionnelle d'objets saisis lors de nos dernières perquisitions!!!
+    </p>
+</div>
 <section id="container-slider">
     <div id="slider"></div>
 </section>
 <section id="description">
-    <h2>SHOP</h2>
-    <div class="container-page-description">
-        <p class="page-desciption">
-            Profitez de notre grande braderie exceptionnelle d'objets saisis lors de nos dernières perquisitions!!!
-        </p>
-    </div>
 </section>
 <section id="container-weapons">
     <?php foreach($weaponsCategories as $weaponCategory => $weapons) : ?>

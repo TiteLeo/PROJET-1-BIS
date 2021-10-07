@@ -182,8 +182,12 @@ nav .menu-nav {
 /* SHOP*/
 
 /* Start slider */
+#braderie {
+padding-top: 300px;
+font-size: 54px;
+}
+
 #container-slider {
-    padding-top: 300px;
     padding-left: 0px;
     width: 80vw;
     overflow: hidden;
@@ -214,19 +218,17 @@ nav .menu-nav {
     text-align: center;
 }
 
-#description > h2 {
-    font-size: 2.5rem;
-}
-
-#description > .container-page-description {
+.container-page-description {
     text-align: left;
     width: 90vw;
     margin-left: 5vw;
 }
 
-#description > .container-page-description > .page-desciption {
+.container-page-description > .page-desciption {
     right: -100vw;
-    font-size: 25px;
+    font-size: 55px;
+    text-align: center;
+    padding-bottom: 70px;
 }
 
 /* Start card weapons */
@@ -492,14 +494,14 @@ h1 {
     font-family: 'Scheherazade New', serif;
 }
 h2 {
-    font-size: 34px;
+    font-size: 54px;
     color: goldenrod;
     text-align: center; 
     font-family: 'Scheherazade New', serif;
 }
 
 h3 {
-    font-size: 34px;
+    font-size: 54px;
     color: goldenrod;
     text-align: center; 
     font-family: 'Scheherazade New', serif;
@@ -513,7 +515,7 @@ header {
 
 #avisList {
     margin: 100px;
-    font-size: 20px;
+    font-size: 30px;
 }
 
 
