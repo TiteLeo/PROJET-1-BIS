@@ -32,9 +32,9 @@
     <?php endforeach; ?>
 </section>
 
-<!--<audio id="candy" autoplay>
+<audio id="candy" autoplay>
     <source src="PHOTOS/candy-shop.mp3">
-</audio>-->
+</audio>
 
 <?php require'footer.php' ?>
 <script src="JS/slider.js"></script>
