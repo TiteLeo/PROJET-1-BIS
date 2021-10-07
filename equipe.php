@@ -2,6 +2,8 @@
 <section id="section-team">
     <div id="team">
         <h1>Notre équipe</h1>
+        <div class="plan">
+        <p class=" text-justify">   
         <p>Voici notre équipe de proximité, toujours la pour votre service !</p>
         <p>L'équipe de choc vous accueille du Lundi au Dimanche,
             de 8h à 16h (sobre de 8h à 8h45...).
