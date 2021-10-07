@@ -5,7 +5,7 @@ $weaponsCategories = [
         'snipe.jpg' => 'Fusil de précision',
         'sulfateuse.jpg' => 'Sulfateuse',
     ],
-    'Armes Blanche' => [
+    'Armes Blanches' => [
         'fleau.jpg' => 'L\'arme du fleau',
         'hache.jpg' => 'Hache',
         'knife.png' => 'Couteau',

@@ -279,24 +279,21 @@ nav .menu-nav {
 
 /* Start page équipe */
 #section-team {
-    width: 90vw;
+    width: 100vw;
     padding-top: 300px;
 }
 
 #map {
-    width: 80vw;
-    margin-left: 10vw;
     text-align: center;
 }
 
 #map img {
-    width: 100%;
+    width: 40%;
 }
 
 #team {
     width: 100%;
-    margin-left: 10vw;
-    text-align: left;
+    text-align: center;
     font-size: 25px;
 }
 
@@ -509,6 +506,7 @@ button {
     nav .menu-nav .navbar {
         display: block;
         background-color: var(--primary-color);
+        position: fixed;
         height: 100%;
         width: 100%;
         top: 70px;
@@ -586,8 +584,9 @@ button {
     }
 
     #section-team {
-        width: 90vw;
+        width: 100vw;
         padding: 150px 0 25px 0;
+        align-items: center;
     }
 
     #picture-team {
@@ -616,3 +615,5 @@ button {
         font-size: 25px;
     }
 }
+
+
