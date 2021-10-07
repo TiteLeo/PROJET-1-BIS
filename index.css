@@ -509,6 +509,7 @@ button {
     nav .menu-nav .navbar {
         display: block;
         background-color: var(--primary-color);
+        position: fixed;
         height: 100%;
         width: 100%;
         top: 70px;
