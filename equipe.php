@@ -10,10 +10,9 @@
             Téléphone: 05 40 12 15 33 ou pas 
             13 All. Serr, 33000 Bordeaux
         </p>
-    <div> <img src="PHOTOS/plan.png" alt="plan"></div>
-    <div id="picture-team">
-        <img id="image-team" src="./PHOTOS/equipe.jpg" alt="Notre équipe">
     </div>
+    <div id="map"><img src="PHOTOS/plan.png" alt="plan"></div>
+    <div id="picture-team"><img id="image-team" src="./PHOTOS/equipe.jpg" alt="Notre équipe"></div>
 </section>
  <?php require'footer.php' ?>
 </body>
