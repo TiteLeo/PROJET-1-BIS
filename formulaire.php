@@ -11,7 +11,7 @@
         <p><label for="email">Email:</label></p>
         <input type="email" id="email" name="email" value="ayez_confiance@jailhouse.com"/>
 
-        <p><label for="message">Expliquez-nous tranquillement le délit de votre proche:</label></p>
+        <p><label for="message">#Balancez votre proche:</label></p>
         <textarea id="message" name="message" placeholder="Lachez les vannes!"></textarea>
 
         <p><button>Soumission</button></p>
@@ -26,8 +26,7 @@
 <ul id="avisList">
     <li class='avis'>J'ai adoré les douches!!! (Michel Buse)</li>
     <li class='avis'>MERCI!! Grâce au commissariat j'ai rencontré Marie-Jeanne, qui m'a appris le jardinage, et Walter,
-        <p>ancien prof de chimie en reconversion pro <3.(Danielle Quiche)</p>
-    </li>
+        ancien prof de chimie en reconversion pro <3.(Danielle Quiche)</li>
     <li class='avis'>Très déçu du shop!! La kalachnikov s'est enraillée au bout de 2 utilisations! C'est scandaleux!! (Jean Mairde)</li>
 </ul>
 <script src="JS/formulaire.js"></script>

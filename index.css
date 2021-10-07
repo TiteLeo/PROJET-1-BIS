@@ -351,11 +351,9 @@ font-size: 54px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: url(PHOTOS/reception.jpg);
     background-size:cover;
-    color:bisque;
+    color:goldenrod;
     padding-top: 300px;
-    font-style:oblique;
     font-family: "Oswald" sans-serif;
 
 }
@@ -363,18 +361,13 @@ font-size: 54px;
 .enhaut h1 {
     font-size: 60px;
     border-bottom: 1px solid white;
-    background-color: black;
-    opacity: 0.5;
-
-}
+   }
 
 .enhaut h4 {
     margin-top: -20px;
-    font-size: 20px;
+    font-size: 23px;
     text-align: center;
     border-bottom: 1px solid white;
-    background-color: black;
-    opacity: 0.6;
 }
 
 .hotres {
@@ -529,7 +522,6 @@ header {
     justify-content: center;
     margin: 0 auto;
     width: 40vw;
-    min-width: 450px;
     border: 1px solid #CCC;
     border-radius: 1em;
 }

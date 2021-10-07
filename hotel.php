@@ -5,9 +5,7 @@
 <h4>Un commissariat aux multiples facettes</h4>
 
 </section>
-
-
-      
+  
 <section class="hotres" id="hotel">
     <div class ="recep">
         <div class="chamber">
