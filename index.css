@@ -345,9 +345,139 @@ nav .menu-nav {
 }
 
 /* HOTEL RESTAU */
+.enhaut {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url(PHOTOS/reception.jpg);
+    background-size:cover;
+    color:bisque;
+    padding-top: 300px;
+    font-style:oblique;
+    font-family: "Oswald" sans-serif;
 
+}
 
+.enhaut h1 {
+    font-size: 60px;
+    border-bottom: 1px solid white;
+    background-color: black;
+    opacity: 0.5;
 
+}
+
+.enhaut h4 {
+    margin-top: -20px;
+    font-size: 20px;
+    text-align: center;
+    border-bottom: 1px solid white;
+    background-color: black;
+    opacity: 0.6;
+}
+
+.hotres {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:white;
+    margin-top: 100px;
+    font-family: "Oswald" sans-serif;
+}
+
+.hotres .recep {
+    text-align: center;
+    padding: 10px
+}
+
+.hotres .recep .chamber {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.hotres .recep .chamber .left {
+    flex: 0 0 30%;
+    padding: 20px;
+    background-color: skyblue;
+    color: ;
+}
+
+.hotres .recep .chamber .left h1 {
+    text-align: center;
+}
+
+.hotres .recep .chamber .right img {
+    height: 300px;
+    width: 400px;
+    margin-top: 5px;
+    transition-property: all;
+}
+
+.restau {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background:url(PHOTOS/sallerestau.jpg);
+    background-size: cover;
+    color: white;
+    padding: 40px;
+    font-style: ;
+    margin-top: 100px;
+    font-size: 20px;
+    font-family: "Oswald" sans-serif;
+}
+
+.restau .miam {
+    margin-top: 20px;
+}
+
+.restau .miam p{
+    font-size: 30px;
+    background-color: black;
+    opacity: 0.7;
+}
+
+.buffet {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:white;
+}
+
+.buffet .eat {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+    color: white;
+    margin-top: 70px;
+}
+
+.buffet .eat .left {
+    flex: 0 0 30%;
+    padding: 20px;
+    background-color:crimson;
+    color: white;
+}
+
+.buffet .eat .left h1 {
+    text-align: center;
+}
+
+.buffet .eat {
+    text-align: center;
+    padding: 10px
+}
+
+.buffet .eat .right img {
+    height: 300px;
+    width: 400px;
+    margin-top: 5px;
+    transition-property: all;
+}
 
 /* FORMULAIRE*/
 
@@ -563,6 +693,35 @@ button {
         border-radius: 5px;
     }
 
+    .hotres .recep {
+        margin: 10px;
+    }
+
+    .hotres .recep .chamber .right img {
+        height:300px;
+        width:100%;
+        margin-top: -0px;
+    }
+
+    .hotres .recep .chamber {
+        display: block;
+    }
+
+    .buffet .eat {
+        margin: 10px;
+        justify-content: center;
+    }
+
+    .buffet .eat .right img {
+        height:300px;
+        width:100%;
+        margin-top: 0px;
+    }
+
+    .buffet .eat {
+        display: block;
+    }
+
     #contact {
         padding-top: 150px;
     }
@@ -573,7 +732,7 @@ button {
         font-size: 16px;
     }
 
-    #contactForm label{
+    #contactForm label {
         font-size: 16px;
     }
 
