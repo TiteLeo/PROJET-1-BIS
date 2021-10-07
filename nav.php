@@ -24,32 +24,11 @@
             <div class="menu-nav">
                 <div class="logo" id="logo-mobile"><img src ="PHOTOS/logonew.png"></div>
                 <ul class="navbar">
-
                     <li><a href="index.php">Accueil</a></li>
-                    <li>
-                        <a href="armes.php" class="menu-link">Shop</a>
-                        <input type="checkbox" id="link-arme">
-                        <label for="link-arme">Shop</label>
-                        <ul>
-                            <li><a href="armes.php">Armes à feu</a></li>
-                            <li><a href="armes.php">Armes blanches</a></li>
-                            <li><a href="armes.php/#Armesexplosives">Festif</a></li>
-                            <li><a href="armes.php">Médecine douce</a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="#" class="menu-link">Hotel/Restaurant</a>
-                        <input type="checkbox" id="link-hotel">
-                        <label for="link-hotel">Hotel/Restaurant</label>
-                        <ul>
-                            <li><a href="#">Hotel/Restaurant 1</a></li>
-                            <li><a href="#">Hotel/Restaurant 2</a></li>
-                            <li><a href="#">Hotel/Restaurant 3</a></li>
-                            <li><a href="#">Hotel/Restaurant 4</a></li>
-                        </ul>
-                    </li>
+                    <li><a href="armes.php">Shop</a></li>
+                    <li><a href="#">Hotel/Restaurant</a></li>
                     <li><a href="formulaire.php">Contact/Avis</a></li>
-                    <li><a href="equipe.php">Notre Equipe</a></li>
+                    <li><a href="equipe.php">Equipe</a></li>
                 </ul>
             </div>
         </nav>

@@ -16,7 +16,7 @@
 <section id="container-weapons">
     <?php foreach($weaponsCategories as $weaponCategory => $weapons) : ?>
 
-        <div id="<?= str_replace(" ", "",$weaponCategory) ?>">
+        <div id="<?= $weaponCategory ?>">
 
             <h2 class="type-weapons"><?= $weaponCategory ?></h2>
             <div class="weapons">
